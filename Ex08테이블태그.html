@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- table 태그 : 표 형태 (행과 열을 가진 형태) -->
+    <table border="1" bordercolor="#8C8CFF" align="center">
+        <!-- caption : 표(테이블) 태그 -->
+        <caption>뉴진스 정보</caption>
+
+        <!-- tr (table row) : 행(가로) 태그-->
+        <tr bgcolor="#C8C8FF">
+            <!-- th (table heading) : 컬럼 제목 태그 -->
+            <!-- th 태그를 두 개 만들고 싶을 때 th*2 쓰고 Enter -->
+            <th width="50px">나이</th>
+            <th width="100px">이름</th>
+        </tr>
+
+        <tr align="center">
+            <!-- td (table data) : 열(세로) 태그-->
+            <td rowspan="2">18</td>
+            <!-- rowspan : 행 병합 -->
+            <td>민지</td>
+        </tr>
+
+        <tr align="center">
+            <!-- <td>18</td>  <== rowspan 사용한 후 삭제-->
+            <td>하니</td>
+        </tr>
+
+        <tr align="center">
+            <td>17</td>
+            <td>다니엘</td>
+        </tr>
+
+        <tr align="center">
+            <td>16</td>
+            <td>해린</td>
+        </tr>
+
+        <tr align="center">
+            <td>14</td>
+            <td>혜인</td>
+        </tr>
+
+        <tr align="center">
+            <!-- colspan : 열(컬럼) 병합 -->
+            <td colspan="2">비고</td>
+        </tr>
+
+    </table>
+
+
+
+
+</body>
+</html>
